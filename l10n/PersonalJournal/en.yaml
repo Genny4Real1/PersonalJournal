@@ -1,0 +1,80 @@
+# Personal Journal - English Localization (OpenMW l10n)
+
+modName: "Personal Journal"
+modDescription: "A Joplin-inspired in-game personal notebook & roleplay journal for OpenMW. Unrestricted note editing, notebooks, tags, checklists, Tamrielic timestamps, and an authentic starting journal item."
+
+groupGeneralName: "General & Controls"
+groupGeneralDesc: "Keybindings, inventory item behavior, saving, and confirmation prompts."
+
+groupAppearanceName: "Appearance & Layout"
+groupAppearanceDesc: "Customize the look, size, font, and optional HUD button of your Personal Journal."
+
+toggleTrigger_name: "Custom Toggle Binding"
+toggleTrigger_desc: "Optional custom keyboard, mouse, or controller binding to open or close the Personal Journal."
+
+quickKey_name: "Default Quick Key"
+quickKey_desc: "Out-of-the-box hotkey to toggle the Personal Journal without extra setup. Set to None if you prefer only the custom binding or inventory item."
+
+requireItem_name: "Require Journal Item for Hotkey"
+requireItem_desc: "When enabled, pressing the hotkey only opens the journal if your Personal Journal book is in your inventory. Great for strict roleplay."
+
+giveAtStart_name: "Grant Journal at Journey Start"
+giveAtStart_desc: "Automatically place a Personal Journal book in your inventory when starting a new game (or on first load of an existing save)."
+
+storageMode_name: "Note Storage Scope"
+storageMode_desc: "Per-Save keeps notes tied to each character's save file (ideal for roleplay). Shared persists one notebook across all saves and reloads."
+
+autoSave_name: "Auto-Save Changes"
+autoSave_desc: "Automatically save edits as you type, switch notes, or close the journal."
+
+confirmDelete_name: "Confirm Before Deleting"
+confirmDelete_desc: "Show a confirmation dialog before deleting notes or notebooks."
+
+confirmUndo_name: "Confirm Before Undo"
+confirmUndo_desc: "Show a confirmation dialog before reverting unsaved edits."
+
+playSounds_name: "Play Book Sounds"
+playSounds_desc: "Play classic Morrowind book opening, closing, and page-turning sounds."
+
+showHudButton_name: "Show HUD Quick Button"
+showHudButton_desc: "Display a compact clickable Journal button in the corner of your screen while menus are open."
+
+theme_name: "Visual Theme"
+theme_desc: "Choose between Morrowind Dark, Warm Parchment, Ashlander Slate, or High Contrast."
+
+accentColor_name: "Cover & Header Tint"
+accentColor_desc: "Custom tint color applied to the journal header bar and accent highlights."
+
+windowPreset_name: "Window Size Preset"
+windowPreset_desc: "Choose the default dimensions of the Personal Journal window."
+
+fontSize_name: "Editor Font Size"
+fontSize_desc: "Text size inside the note editor (12 - 26)."
+
+# Select option labels
+N: "N"
+K: "K"
+O: "O"
+F6: "F6"
+F7: "F7"
+F8: "F8"
+None: "None"
+
+perSave: "Per-Save (Character)"
+shared: "Shared (Across Saves)"
+
+dark: "Morrowind Dark"
+parchment: "Warm Parchment"
+slate: "Ashlander Slate"
+highContrast: "High Contrast"
+
+compact: "Compact (780x490)"
+standard: "Standard (960x600)"
+large: "Large (1140x700)"
+
+# In-game messages
+msgJournalReceived: "You have received your Personal Journal. Use it from your inventory or press {key} to write in it."
+msgJournalReclaimed: "A fresh Personal Journal has been placed in your inventory."
+msgJournalRequired: "You must be carrying your Personal Journal to open it."
+msgJournalAlreadyOwned: "Your Personal Journal is already in your inventory."
+msgPickedUpJournal: "You picked up your Personal Journal."

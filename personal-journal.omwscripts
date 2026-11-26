@@ -1,0 +1,2 @@
+GLOBAL: scripts/personal-journal/global.lua
+PLAYER: scripts/personal-journal/player.lua

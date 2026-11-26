@@ -1,0 +1,62 @@
+[size=5][b]Description[/b][/size]
+
+[b]Personal Journal[/b] lets you create, organize, and edit personalized in-game notes with ease — with zero restrictions.
+
+After you start your journey in Morrowind (or load an existing save), you will automatically receive a physical [b]Personal Journal[/b] item in your inventory. Open it like a normal book, place it on your desk at home for roleplaying, or press the [b]N[/b] key at any time to immediately start journaling your story, tracking leads, planning builds, or keeping checklists right inside the game.
+
+Built in pure [b]OpenMW Lua[/b] with no [b].esp[/b] required, it combines the clean 3-pane organization of [b]Joplin[/b] with the in-game convenience of ESO's [b]Notebook 2018[/b], designed with readability and accessibility in mind.
+
+
+[size=5][b]Installation instructions[/b][/size]
+
+[b]Option 1: OpenMW Launcher (Recommended)[/b]
+[list=1]
+[*]Download and extract the [b]PersonalJournal[/b] folder into your OpenMW mods directory.
+[*]Open the [b]OpenMW Launcher[/b].
+[*]Go to [b]Data Directories[/b], click [b]Append[/b], and select the extracted [b]PersonalJournal[/b] folder.
+[*]Go to [b]Data Files[/b] (Content List) and enable [b]personal-journal.omwscripts[/b].
+[*]Launch the game and customize any options under [b]Options -> Scripts -> Personal Journal[/b].
+[/list]
+
+[b]Option 2: Manual (openmw.cfg)[/b]
+[list=1]
+[*]Extract [b]PersonalJournal[/b] to your mods folder.
+[*]Add these lines to your [b]openmw.cfg[/b]:
+[code]data="/path/to/PersonalJournal"
+content=personal-journal.omwscripts[/code]
+[/list]
+
+[b]Option 3: Mod Managers (MO2 / Vortex)[/b]
+Install the archive like any standard OpenMW mod and enable [b]personal-journal.omwscripts[/b] in your content list.
+
+
+[size=5][b]Main features[/b][/size]
+
+[list]
+[*][b]Obtained at the Start of Your Journey:[/b] Automatically receive a weightless [b]Personal Journal[/b] book in your inventory after character generation (or immediately on existing saves). Use it from your inventory, place it on a table/desk in the world and activate it there, or press [b]N[/b] (rebindable).
+[*][b]Joplin-Style 3-Pane Notebook:[/b] Organize notes into custom [b]Notebooks[/b] (create, rename, or delete freely — deleting a notebook safely moves its notes so nothing is lost), filter by [b]#tags[/b] or [b]Pinned[/b] notes, and search live across titles, bodies, tags, locations, and dates.
+[*][b]Unrestricted Editing & Checklists:[/b] Edit titles, tags, and pages freely with no limits. Write [b]- [ ][/b] tasks and switch to [b]Tasks[/b] view to check them off with a single click.
+[*][b]Roleplay & Productivity Tools:[/b] One-click [b]+Date[/b] (Tamrielic calendar & time), [b]+Loc[/b] (current cell/region), [b]+Task[/b], [b]+ Diary[/b], and 5 built-in templates (Diary, Quest Lead, Task List, NPC Dossier, Alchemy / Lore).
+[*][b]Keyboard Shortcuts & Safety:[/b] Press [b]Ctrl + N[/b] to create a new note, [b]Ctrl + S[/b] to save a snapshot, and [b]Escape[/b] to close. Includes auto-save, [b]Undo[/b], note duplication, and optional Delete/Undo confirmation prompts.
+[*][b]Accessible Themes & Custom Colors:[/b] Choose from 4 WCAG-tuned themes — [b]Morrowind Dark[/b], [b]Warm Parchment[/b] (Light), [b]Ashlander Slate[/b], and [b]High Contrast[/b] — plus a customizable [b]Cover & Header Tint[/b] with automatic contrast protection so text always stays crisp and readable.
+[*][b]Clean, Readable Layout:[/b] Draggable and lockable window, 3 size presets (Compact, Standard, Large), adjustable editor font size (12–26), clear selection accent bars, and comfortable click targets (>= 24x24px) across all controls.
+[*][b]Flexible Storage Scope:[/b] Choose [b]Per-Save (Character)[/b] storage for authentic character-specific roleplay, or [b]Shared (Across Saves)[/b] storage to keep one persistent notebook across reloads and characters.
+[*][b]Zero Conflicts & Modder API:[/b] Pure [b].omwscripts[/b] Lua mod with no [b].esp[/b] conflicts. If you ever lose the physical book, run [b]I.PersonalJournal.reclaimJournal()[/b] in the [b]luap[/b] console.
+[/list]
+
+
+[size=5][b]Requirements[/b][/size]
+
+[list]
+[*][b]Latest OpenMW[/b] (OpenMW 0.49 or newer; tested on 0.49 / 0.50 / 0.51).
+[*][b]No other mods or .esp plugins required.[/b] Compatible with Vanilla Morrowind, Tribunal, Bloodmoon, Tamriel Rebuilt, Project Cyrodiil, Skyrim: Home of the Nords, and custom modlists.
+[/list]
+
+
+[size=5][b]Shout outs[/b][/size]
+
+[list]
+[*][b]Notebook 2018[/b] (ESO) — for inspiring the draggable/lockable in-game notebook, custom cover tinting, undo workflow, and safety prompts.
+[*][b]Joplin[/b] — for the 3-pane notebook, tag, and checklist workflow.
+[*][b]The OpenMW Team & Modding-OpenMW Community[/b] — for the OpenMW Lua API and documentation that make pure-Lua UI mods possible.
+[/list]
